@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 header {
@@ -9,12 +10,12 @@ header {
   background-color: #282A36;
   gap: 1rem;
   padding: 1rem;
+}
 
-  a {
-    color: #50FA7B;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+header a {
+  color: #50FA7B;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 main {
@@ -29,7 +30,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: #163D20; 
+  background-color: #163D20;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -55,30 +56,36 @@ button {
   border-radius: 4px;
   border: 1px solid #0B2611;
   background-color: #E5E5E5;
-  color: #333; 
+  color: #333;
 }
-button{
-  background-color: #0B2611; 
-  color: #A9F5A9; 
+
+button {
+  background-color: #0B2611;
+  color: #A9F5A9;
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 button:hover {
-  background-color: #A9F5A9; 
-  color: #0B2611; 
-}
-img{
-  width: 500px;
-  height: 500px;
-}
-p{
-  color: green;
-  font-size: 20px;
+  background-color: #A9F5A9;
+  color: #0B2611;
 }
 
-.foto{
-  width: 300px;
-  height: 200px;
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+p {
+  color: green;
+  font-size: 1.25rem;
+}
+
+.foto {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 20px;
-  padding-top: 50px;
+  margin-top: 50px;
 }
